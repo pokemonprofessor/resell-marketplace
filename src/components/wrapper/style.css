@@ -1,0 +1,12 @@
+.loader-container {
+  height: 92%;
+  background: #F8F8F8AD;
+  z-index: 1;
+}
+
+.loader {
+  left: 50%;
+  top: 50%;
+  z-index: 1000;
+  position: absolute;
+}

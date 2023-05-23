@@ -1,0 +1,14 @@
+dispatch:
+- url: "marketplace.resell.ooo/*"
+  service: resell-marketplace
+- url: "www.marketplace.resell.ooo/*"
+  service: resell-marketplace
+- url: "resell.ooo/*"
+  service: default-prod
+- url: "www.resell.ooo/*"
+  service: default-prod
+- url: "admin.resell.ooo/*"
+  service: resell-admin
+- url: "www.admin.resell.ooo/*"
+  service: resell-admin  
+

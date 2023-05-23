@@ -1,0 +1,186 @@
+a {
+  text-decoration: none;
+}
+
+.logo-wrap{
+  width: 9%;
+  height: 100%;
+}
+
+.logo-wrap img{
+  padding: 6px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.header-right {
+  display: flex;
+  align-items: initial !important;
+}
+
+body.overflow {
+  overflow-y: hidden;
+  /* overflow-x: inherit !important; */
+}
+
+
+.header-content-area {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.header-address {
+  font-size: 14px;
+  font-weight: bold;
+  color: #e7e7e7;
+}
+
+.css-1h5ew8f-ComboboxInner {
+  top: -4px !important;
+}
+
+.sidebar-bottom a {
+  display: inline-block;
+  line-height: 60px;
+  padding: 0px 20px 0 40px;
+  font-size: 20px;
+  color: #030303;
+  width: 100%;
+  font-weight: bold;
+}
+
+#menu-appbar
+  .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  top: 70px !important;
+  left: auto !important;
+  right: 129px;
+}
+
+#menu-appbar
+  .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper
+  ul {
+  padding: 0;
+}
+
+#menu-appbar
+  .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper
+  li {
+  /* font-size: 14px; */
+  display: block;
+}
+
+#menu-appbar
+  .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper
+  li:hover {
+  background: #0068ff;
+  color: #fff;
+}
+
+#menu-appbar ul li {
+  padding: 6px 16px !important;
+}
+
+/* NEW HEADER CSS START FROM HERE  */
+.heder-right ul li a,
+.heder-right ul li a span {
+  display: block;
+  text-align: center;
+}
+.heder-right ul li {
+  margin: 0 20px;
+}
+.heder-right ul li a {
+  position: relative;
+}
+.heder-right ul li a span {
+  font-size: 12px;
+  line-height: 13px;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  width: 100%;
+}
+.heder-right ul li a img {
+  margin-right: 0;
+}
+.heder-right ul li:after {
+  top: 8px;
+  height: 20px;
+  right: -20px;
+}
+
+.heder-right ul li:last-child::after {
+  top: 0px;
+}
+
+.heder-right .btn-primary {
+  text-align: center;
+  margin-left: 10px;
+  background: #fff;
+  color: #0d51b4 !important;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.css-1tutrsd-ViewOption {
+  padding-bottom: 20px;
+}
+
+.css-1xwysw7-ComboboxInner {
+  line-height: 2.5 !important;
+}
+
+.header-select {
+  position: absolute !important;
+  right: 65px;
+  top: -55px;
+  border: none;
+  background: transparent;
+  color: black;
+}
+
+.header-select:focus-visible {
+  outline: none !important;
+}
+
+.header-select option {
+  padding: 10px;
+}
+
+.header-select .MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+header .MuiInputLabel-root {
+  right: 105px;
+  left: auto;
+  top: -26px;
+}
+
+/* NEW HEADER CSS END HERE  */
+@media (max-width: 450px) {
+  .logo-wrap{
+    width: 37%;
+    height: 100%;
+  }
+  .logo-wrap img{
+    padding: 2px;
+    margin-top: 2px;
+    width: 100%;
+  }
+  .header-address {
+    font-size: 11px;
+    padding: 9px 3px;
+  }
+  .btn-primary {
+    font-size: 9px !important;
+    padding: 6px 10px;
+    margin-left: 0;
+  }
+  .header-content-area {
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+  }
+}
